@@ -3,7 +3,11 @@
 # Body of the mail is in body.txt
 
 # open names.txt for reading
+<<<<<<< HEAD
 with open("addres.txt", 'x', encoding='utf-8') as names_file:
+=======
+with open("names.txt", 'x', encoding='utf-8') as names_file:
+>>>>>>> 7b5a92e (3rd commit)
 
     # open body.txt for reading
     with open("body.txt", 'r', encoding='utf-8') as body_file:
